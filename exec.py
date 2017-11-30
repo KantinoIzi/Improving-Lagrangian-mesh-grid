@@ -1,9 +1,9 @@
 import algo
 import matplotlib.pyplot as pl
 
-###Choose what you want to do : 0 = no, 1 = yes ###
-execute = [True,True] # [given configuration, real time]
-detail = True      # 1 : markers added step by step (only used in execute[0])
+###Choose what you want to do : ###
+execute = [False,True] # [given configuration, real time]
+detail = True      # True : markers added step by step (only used in execute[0])
 
 ### Parameters ###
 a = 1 #width
