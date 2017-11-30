@@ -1,6 +1,6 @@
 # Improving-Lagrangian-mesh-grid
-In this project we want to improve a Lagrangian mesh grid. It can be useful when we want to simulate the motion of a fluid for example.  
-At the beginning we have Cartesian grid with markers(yellow circles) at the center of cells (in blue). Then the markers of the grid are going to move according to the following velocity field :  
+In this project we want to improve a Lagrangian mesh grid. It can be useful when we want to simulate a fluid motion for example.  
+At the beginning we have a Cartesian grid with markers(yellow circles) at the center of cells (in blue). Then the markers of the grid move according to the following velocity field :  
 v(x,y) = (0 , 0) if sqrt(x²+y²) >= 1  
 v(x,y) = ((-1+sqrt(x²+y²))*y , -(-1+sqrt(x²+y²))*x) if sqrt(x²+y²) < 1  
 The current position of each marker is indicated by a a black +.  
